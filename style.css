@@ -1,0 +1,51 @@
+h2{
+	font-family: 'Bubbler One', sans-serif;
+ 	font-size: 30px;
+ 	color: #000099;
+ }
+
+.intro {
+	color: #00FFFF;
+ 	text-align: center;
+ 	font-family: 'Vibur', cursive;
+  	font-size:60px;
+  }
+
+ .slideshow {
+ 		text-align: center;
+ }
+
+ .slide1 {
+  border: none;
+  position: relative;
+}
+
+.slide2 {
+  border: none;
+  position: relative;
+  top: -538px;
+  z-index: 2;
+}
+
+.slide3 {
+  border: none;
+  position: relative;
+  z-index: 1;
+  top: -1075px;
+}
+
+.leftbutton {
+	position: relative;
+	float: left;
+	top: -1300px;
+ }
+
+.rightbutton {
+	position: relative;
+	float: right;
+	top: -1300px;
+
+ }
+
+
+
