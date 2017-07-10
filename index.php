@@ -8,6 +8,10 @@
     <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js></script>
     <script src=script.js> </script>
     <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Vibur" rel=stylesheet>
+    <?php
+    $fullname = $_POST["fullname"];
+    print($fullname);
+    ?>
   </head>
 
 <body>
@@ -36,7 +40,17 @@
 <div class="buttons">
   <button type="button" class="previous">See past dogs!</button>
   <button type="button" class="next">See more dogs!</button>
-</div>       
+</div>  
+ <div class="form">
+ <h2> Register below to recieve weekly dog pictures. </h2>
+<Form method = "POST" Action = "registration.php">
+<input type="text" name= "fullname" value= "fullname"<br>
+<input type="text" name= "email" value= "email"<br>
+<input type ="submit" >
+</Form>
+</div>
+<form action ="registration.php" method="get>"
+
 </body>
 </html>
  

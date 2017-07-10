@@ -11,7 +11,7 @@ h2, .caption, .button {
   	font-size:60px;
   }
 
- .slideshow, .buttons {
+ .slideshow, .buttons{
  		text-align: center;
  }
 
@@ -19,6 +19,7 @@ h2, .caption, .button {
   border: none;
   position: relative;
 }
+
 
 
 
