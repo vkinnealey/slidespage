@@ -2,23 +2,23 @@ h2, .caption, .button {
 	font-family: 'Bubbler One', sans-serif;
  	font-size: 30px;
  	color: #000099;
- }
+ 	}
 
 .intro {
 	color: #00FFFF;
  	text-align: center;
  	font-family: 'Vibur', cursive;
   	font-size:60px;
-  }
+  	}
 
  .slideshow, .buttons{
- 		text-align: center;
- }
+ 	text-align: center;
+ 	}
 
  .slide {
-  border: none;
-  position: relative;
-}
+ 	border: none;
+    position: relative;
+	}
 
 
 
